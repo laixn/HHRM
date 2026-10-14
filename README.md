@@ -4,6 +4,6 @@ We present a hierarchical model, HHRM, to classify hierarchical tumor subtypes i
 
 ![HHRM](https://github.com/user-attachments/assets/e0969ea7-38e6-4332-bdf2-892bdb75f3b0)
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/e0969ea7-38e6-4332-bdf2-892bdb75f3b0" alt="居中图片" style="max-width: 100%;">
-</div>
+</p>
