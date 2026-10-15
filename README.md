@@ -25,9 +25,9 @@ main/
 ```
 
 ## Pre-requisites: TEST 
-* Linux (Ubuntu 18.04) 
-* NVIDIA GPU (Nvidia GeForce RTX 2080 Ti x 2)
-* Python (3.8), tensorflow (2.8.2), keras (2.8.0), shap (0.45.1), scikit-learn (1.4.1), matplotlib (3.9.2)    
+* Linux (Ubuntu 20.04.6 LTS) 
+* NVIDIA GPU (NVIDIA GeForce RTX 3090 24G)
+* Python (3.8.20), Pytorch (2.3.0), Numpy (1.24.3), Pandas (2.0.3), scikit-learn (1.3.0), SHAP (0.41.0)    
 
 ## Run the code:
 1. test
