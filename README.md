@@ -17,7 +17,7 @@ main/
         └── load_and_pred_up.py
   └──data/ # the data used to train and test the model
         ├── cleaned_data_out.csv
-        └── cleaned_data_test.xlsx
+        └── cleaned_label.xlsx
   └──adjacency_matrix/ # the cancer hallmark matrix for GCN
         ├── Undirected_0...matrix.npz
         ├── ...
