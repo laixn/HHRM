@@ -4,7 +4,7 @@ We present a cancer hallmark-based hierarchical recursive model (HHRM) for hiera
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e0969ea7-38e6-4332-bdf2-892bdb75f3b0" alt="居中图片" style="max-width: 100%;">
+  <img width="762" height="537" alt="Image" src="https://github.com/user-attachments/assets/7530997b-e04d-4996-a16c-fe5ffcf18330" />
 </p>
 
 ## The current version is to provide reviewers with reproducible experimental results
