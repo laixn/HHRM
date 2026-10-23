@@ -1,7 +1,8 @@
 # HHRM: a hierarchical recursive model for hierarchical molecular subtype classification in pan-cancer
+[![Static Badge](https://img.shields.io/badge/Preprint-bioRxiv-darkred)](https://doi.org/)
+[![Static Badge](https://img.shields.io/badge/ZENODO-10.5281/zenodo.23589666-red)](https://zenodo.org/uploads/23589666)
 
 We present a cancer hallmark-based hierarchical recursive model (HHRM) for hierarchical multi-label classification in pan-cancer. HHRM integrates hierarchical label structures with recursive neural networks, enabling simultaneous modeling of multi-level dependencies from broad cancer categories to specific subtypes. We trained the model using a comprehensive, pan-cancer cohort of 11,476 patients with 26 primary cancers, with subtypes spanning up to eight levels. HHRM achieved accuracy of 0.7924 for predicting hierarchical tumor subtypes. 
-
 
 <p align="center">
   <img width="762" height="537" alt="Image" src="https://github.com/user-attachments/assets/7530997b-e04d-4996-a16c-fe5ffcf18330" />
@@ -29,7 +30,7 @@ main/
 * Python (3.8.20), Pytorch (2.3.0), Numpy (1.24.3), Pandas (2.0.3), scikit-learn (1.3.0), SHAP (0.41.0)    
 
 ## Run the code:
-1. You first need to download the archived data and models from [![Static Badge](https://img.shields.io/badge/ZENODO-grey)](https://zenodo.org/records/15790123)
+1. You first need to download the archived data and models from [![Static Badge](https://img.shields.io/badge/ZENODO-grey)](https://zenodo.org/uploads/23589666)
 2. You must ensure that the input file path required in the code file is correct.
 3. Run the file `code/HHRM_training_up.py` for training, and run the file `code/load_and_pred_up.py` for load the best model and predict analysis.
 4. If you want to calculate the SHAP values, please set `Whether_to_calculate_the_shap = TRUE` in `code/load_and_pred_up.py`.
@@ -43,10 +44,10 @@ Bioinformatics-test. https-test.
 
 ```bash
 @article{Zhang_HHRM_2026,
-  title={HHRM-test},
+  title={HHRM},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
-  journal={test},
-  doi={test},
+  journal={},
+  doi={},
   year={2026}
 }
 ```
