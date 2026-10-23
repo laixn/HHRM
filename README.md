@@ -1,7 +1,4 @@
-# HHRM
-<p align="center">
-    HHRM: a biologically informed classifier for hierarchical molecular subtype classification in pan-cancer
-</p>
+# HHRM: a hierarchical recursive model for hierarchical molecular subtype classification in pan-cancer
 
 We present a cancer hallmark-based hierarchical recursive model (HHRM) for hierarchical multi-label classification in pan-cancer. HHRM integrates hierarchical label structures with recursive neural networks, enabling simultaneous modeling of multi-level dependencies from broad cancer categories to specific subtypes. We trained the model using a comprehensive, pan-cancer cohort of 11,476 patients with 26 primary cancers, with subtypes spanning up to eight levels. HHRM achieved accuracy of 0.7924 for predicting hierarchical tumor subtypes. 
 
