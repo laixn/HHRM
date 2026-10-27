@@ -683,18 +683,18 @@ def evaluation(scores, labels, threshold=0.5):
 
         eval_all.append(eval_result)
 
-    y_true_global = labels[8].cpu().numpy()
-    y_score_global = scores[8].cpu().numpy()
-    y_pred_binary = (y_score_global >= threshold).astype(int)
-    eval_all.append({
-        'model': 'test_model',
-        'task': f'Global',
-        'num_labels': y_pred_binary.shape[1],
-        'accuracy': accuracy_score(y_true_global, y_pred_binary),
-        'precision': precision_score(y_true_global, y_pred_binary, average='macro', zero_division=0),
-        'recall': recall_score(y_true_global, y_pred_binary, average='macro', zero_division=0),
-        'f1_score': f1_score(y_true_global, y_pred_binary, average='macro', zero_division=0)
-    })
+    # y_true_global = labels[8].cpu().numpy()
+    # y_score_global = scores[8].cpu().numpy()
+    # y_pred_binary = (y_score_global >= threshold).astype(int)
+    # eval_all.append({
+    #     'model': 'test_model',
+    #     'task': f'Global',
+    #     'num_labels': y_pred_binary.shape[1],
+    #     'accuracy': accuracy_score(y_true_global, y_pred_binary),
+    #     'precision': precision_score(y_true_global, y_pred_binary, average='macro', zero_division=0),
+    #     'recall': recall_score(y_true_global, y_pred_binary, average='macro', zero_division=0),
+    #     'f1_score': f1_score(y_true_global, y_pred_binary, average='macro', zero_division=0)
+    # })
     y_true_global2 = torch.cat(labels[:8], dim=1).cpu().numpy()
     y_score_global2 = torch.cat([F.one_hot(s.argmax(dim=1), num_classes=s.size(1)).to(torch.int) for s in scores[:8]], dim=1).cpu().numpy()
     global2 = {
