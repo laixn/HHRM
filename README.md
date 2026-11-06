@@ -47,7 +47,7 @@ Bioinformatics-test. https-test.
   title={Classifying tumors from broad category to hierarchical molecular subtype: an interpretable hierarchical framework for precision oncology},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
   journal={bioRxiv},
-  doi={[10.64898/2026.10.30.761789](https://doi.org/10.64898/2026.10.30.761789 )},
+  doi={[https://doi.org/10.64898/2026.10.30.761789},
   year={2026}
 }
 ```
